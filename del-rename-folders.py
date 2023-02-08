@@ -17,7 +17,7 @@ from glob import glob
 # get current directory
 base_dir = os.getcwd()
 # base_dir = '/Volumes/EXT SSD 4TB/Stable-Diffusion/Models/!My Trained Models/1.5 Trained Models/joepenna_repo/gulsah_22img/Test Images'
-base_dir += '/test'
+#base_dir += '/test'
 
 # print("dir = " + base_dir)
 
