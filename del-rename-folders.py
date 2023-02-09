@@ -62,52 +62,52 @@ for folderpath in folder_list2:
     foldername = os.path.basename(os.path.normpath(folderpath))
 
     # 4 to 3
-    if foldername.startswith('4)'):
+    if foldername.startswith('04)'):
         print(base_dir)
         print(foldername)
         orig_name = folderpath
         # remove old index number and bracket
-        new_name = base_dir + '/3) ' + foldername[3:len(foldername)]
+        new_name = base_dir + '/03) ' + foldername[3:len(foldername)]
         os.rename(orig_name, new_name)
 
-    elif foldername.startswith('5)'):
+    elif foldername.startswith('05)'):
         print(base_dir)
         print(foldername)
         orig_name = folderpath
         # remove old index number and bracket
-        new_name = base_dir + '/4) ' + foldername[3:len(foldername)]
+        new_name = base_dir + '/04) ' + foldername[3:len(foldername)]
         os.rename(orig_name, new_name)
 
-    elif foldername.startswith('6)'):
+    elif foldername.startswith('06)'):
         print(base_dir)
         print(foldername)
         orig_name = folderpath
         # remove old index number and bracket
-        new_name = base_dir + '/5) ' + foldername[3:len(foldername)]
+        new_name = base_dir + '/05) ' + foldername[3:len(foldername)]
         os.rename(orig_name, new_name)
 
-    elif foldername.startswith('7)'):
+    elif foldername.startswith('07)'):
         print(base_dir)
         print(foldername)
         orig_name = folderpath
         # remove old index number and bracket
-        new_name = base_dir + '/6) ' + foldername[3:len(foldername)]
+        new_name = base_dir + '/06) ' + foldername[3:len(foldername)]
         os.rename(orig_name, new_name)
 
-    elif foldername.startswith('8)'):
+    elif foldername.startswith('08)'):
         print(base_dir)
         print(foldername)
         orig_name = folderpath
         # remove old index number and bracket
-        new_name = base_dir + '/7) ' + foldername[3:len(foldername)]
+        new_name = base_dir + '/07) ' + foldername[3:len(foldername)]
         os.rename(orig_name, new_name)
 
-    elif foldername.startswith('9)'):
+    elif foldername.startswith('09)'):
         print(base_dir)
         print(foldername)
         orig_name = folderpath
         # remove old index number and bracket
-        new_name = base_dir + '/8) ' + foldername[3:len(foldername)]
+        new_name = base_dir + '/08) ' + foldername[3:len(foldername)]
         os.rename(orig_name, new_name)
 
     elif foldername.startswith('11)'):
@@ -115,7 +115,7 @@ for folderpath in folder_list2:
         print(foldername)
         orig_name = folderpath
         # remove old index number and bracket
-        new_name = base_dir + '/9) ' + foldername[3:len(foldername)]
+        new_name = base_dir + '/09) ' + foldername[3:len(foldername)]
         os.rename(orig_name, new_name)
 
     elif foldername.startswith('12)'):
